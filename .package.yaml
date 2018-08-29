@@ -9,6 +9,9 @@ default:
   url: https://opsx.alibaba.com/
   description: |
     description for this package.
+  setting:
+    script:
+      build: hack/build.sh
 
 distribution:
   centos6.x86_64.placeholder: true
